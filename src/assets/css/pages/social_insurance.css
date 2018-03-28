@@ -1,0 +1,597 @@
+
+body {
+    padding-bottom: 370px;
+    box-sizing: border-box;
+}
+
+.content .block {
+    position: relative;
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+
+}
+
+.content .block .title_container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.content .block .title_container .title {
+    font-size: 28px;
+    color: #666;
+    line-height: 60px;
+}
+
+.content .block_1 {
+
+    background: url("../../image/social_insurance/banner.png") no-repeat;
+    background-size: 100% 100%;
+    /*background-position: ;*/
+}
+
+.content .block_1 > .social_info_intro {
+    height: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-top: 15px \9;
+}
+
+.content .block_1 .item {
+    position: relative;
+    text-align: center;
+}
+
+.content .block_1 .item .name {
+    position: relative;
+    color: #fff;
+    font-size: 38px;
+}
+
+.content .block_1 .item .fee {
+    position: relative;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 25px auto 15px;
+    /*padding: 23px 0;*/
+    padding-top: 28px;
+    text-align: center;
+    color: #1490D2;
+    box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.6);
+}
+
+.content .block_1 .item .txt {
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+}
+
+.content .block_1 .btn_apply {
+    width: 230px;
+    line-height: 36px;
+    text-align: center;
+    display: block;
+    margin: 80px auto 0;
+    font-size: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.6);
+}
+
+.content .block_2 .step_list {
+    position: relative;
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+}
+
+.content .block_2 .step_list .step_item {
+    position: relative;
+    width: 20%;
+    float: left;
+    -webkit-box-sizing: border-box;
+}
+
+.content .block_2 .step_list .step_item .step_head {
+    position: relative;
+    width: 100%;
+}
+
+.content .block_2 .step_list .step_item .step_head .step_no {
+    position: relative;
+    display: block;
+    color: #1490D2;
+    width: 100%;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.content .block_2 .step_list .step_item .step_content {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.content .block_2 .step_list .step_item .step_content .step_tl {
+    position: relative;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.content .block_2 .step_list .step_item .step_content .step_sec {
+    position: relative;
+    line-height: 24px;
+    font-size: 12px;
+    color: #666;
+    padding-right: 30%;
+}
+
+.content .block_2 .step_list .step_item:not(:first-child) .step_head .step_no:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    background-color: #1490D2;
+    top: 23px;
+    left: -55%;
+}
+
+.content .block_2 .step_list .step_item .step_content .step_tl:after {
+    content: "";
+    position: absolute;
+    height: 23px;
+    margin: 8px 0 0 25px;
+}
+
+.content .block_2 .step_list .step_1 .step_content .step_tl:after {
+
+    background: url("../../image/social_insurance/step_1.png") no-repeat;
+    background-size: cover;
+    width: 20px;
+
+}
+
+.content .block_2 .step_list .step_2 .step_content .step_tl:after {
+
+    background: url("../../image/social_insurance/step_2.png") no-repeat;
+    background-size: cover;
+    width: 26px;
+
+}
+
+.content .block_2 .step_list .step_3 .step_content .step_tl:after {
+
+    background: url("../../image/social_insurance/step_3.png") no-repeat;
+    background-size: cover;
+    width: 20px;
+
+}
+
+.content .block_2 .step_list .step_4 .step_content .step_tl:after {
+
+    background: url("../../image/social_insurance/step_4.png") no-repeat;
+    background-size: cover;
+    width: 24px;
+
+}
+
+.content .block_2 .step_list .step_5 .step_content .step_tl:after {
+
+    background: url("../../image/social_insurance/step_5.png") no-repeat;
+    background-size: cover;
+    width: 23px;
+
+}
+
+.content .block_3 .user_case_container {
+}
+
+.content .block_3 .user_case_container .tl {
+    position: relative;
+    width: 150px;
+    font-size: 26px;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px auto 10px;
+}
+
+.content .block_3 .user_case_container .tl:before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.15);
+    top: 18px;
+    left: -200px;
+}
+
+.content .block_3 .user_case_container .tl:after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.15);
+    top: 18px;
+    right: -200px;
+}
+
+.content .block_3 .user_case_container .user_case_list {
+}
+
+.content .block_3 .user_case_container .user_case_list .item {
+    position: relative;
+    padding: 0;
+    height: 200px;
+    margin-top: 25px;
+}
+
+.content .block_3 .user_case_container .user_case_list .item .img {
+    position: relative;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    height: 100%;
+    padding-top: 25px;
+}
+
+.content .block_3 .user_case_container .user_case_list .item .img img {
+    width: 128px;
+    height: 130px;
+}
+
+.content .block_3 .user_case_container .user_case_list .item .case_info {
+    position: relative;
+}
+
+.content .block_3 .user_case_container .user_case_list .item .case_info .type {
+    position: relative;
+    font-size: 18px;
+    line-height: 40px;
+    color: #333;
+    font-weight: bold;
+}
+
+.content .block_3 .user_case_container .user_case_list .item .case_info .sec p {
+    color: #666;
+    position: relative;
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.content .block_3 .user_case_container .user_case_list .item .case_info .message {
+    font-size: 13px;
+    color: #666;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.content .block_4 {
+    padding: 50px 0;
+}
+
+.content .block_4 .row .item {
+    text-align: center;
+}
+
+.content .block_4 .row .item .img {
+}
+
+.content .block_4 .row .item .img img {
+    position: relative;
+    margin: 10px auto;
+    width: 128px;
+    height: 129px;
+}
+
+.content .block_4 .row .item .tl {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    /*line-height:50px;*/
+    margin: 10px 0 20px;
+}
+
+.content .block_4 .row .item ul {
+    color: #666;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+    margin: 0;
+    height: 80px;
+}
+
+.content .block_4 .row .item ul li {
+}
+
+.content .block_5 {
+}
+
+.content .block_5 .tl {
+    position: relative;
+    width: 150px;
+    font-size: 26px;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px auto 10px;
+}
+
+.content .block_5 .tl:before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.15);
+    top: 18px;
+    left: -200px;
+}
+
+.content .block_5 .tl:after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.15);
+    top: 18px;
+    right: -200px;
+}
+
+.content .block_5 .q_list .item {
+    margin-bottom: 20px;
+}
+
+.content .block_5 .q_list .item .q_name {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.content .block_5 .q_list .item .q_answer {
+    color: #666;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.content .block_6 {
+    background: url("../../image/social_insurance/apply_bg.png") no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    /*justify-content: center;*/
+}
+
+.content .block_6 .tl {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    line-height: 60px;
+}
+
+.content .block_6 .apply_container {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 50px 80px;
+}
+
+.content .block_6 .apply_container .row {
+    margin: 0 0 10px 0;
+}
+
+.content .block_6 .apply_container .row input {
+    height: 40px;
+    /*text-align: center;*/
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.content .block_6 .apply_container .row i {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 24px;
+    margin: 8px 12px 8px 18px;
+}
+
+.content .block_6 .apply_container .row i.apply_user {
+    background: url("../../image/social_insurance/apply_user.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.content .block_6 .apply_container .row i.apply_phone {
+    background: url("../../image/social_insurance/apply_phone.png") no-repeat;
+    background-size: 100% 100%;
+    width: 16px;
+}
+
+.content .block_6 .apply_container .row i.apply_corp {
+    background: url("../../image/social_insurance/apply_corp.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.content .block_6 .apply_container .btn_submit {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .content .block_1 > .social_info_intro {
+        padding-top: 15px \9;
+    }
+
+    .content .block_1 .item .name {
+        font-size: 26px;
+    }
+
+    .content .block_1 .item .fee {
+        font-size: 16px;
+        width: 80px;
+        height: 80px;
+        padding-top: 22px;
+    }
+
+    .content .block_1 .item .txt {
+        font-size: 15px;
+    }
+
+    .content .block_1 .btn_apply {
+        margin: 20px auto 0;
+        font-size: 16px;
+        width: 160px;
+        line-height: 24px;
+    }
+
+    .content .block_6 .tl {
+        font-size: 22px;
+    }
+
+    .content .block_6 .apply_container {
+        padding: 25px 50px 20px;
+        margin: 20px auto 0;
+        width: 400px;
+    }
+
+    .content .block_6 .apply_container .row input {
+        font-size: 14px;
+        height: 34px;
+    }
+
+    .content .block_6 .apply_container .row i {
+        width: 14px;
+        height: 18px;
+    }
+
+    .content .block_6 .apply_container .row i.apply_phone {
+        width: 12px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    .content .block_1 > .social_info_intro {
+        /*padding:15px 0;*/
+        padding-top: 20px \9;
+    }
+
+    .content .block_1 .item .name {
+        font-size: 30px;
+    }
+
+    .content .block_1 .item .fee {
+        font-size: 18px;
+        width: 90px;
+        height: 90px;
+        padding-top: 25px;
+    }
+
+    .content .block_1 .item .txt {
+        font-size: 17px;
+    }
+
+    .content .block_1 .btn_apply {
+        margin: 30px auto 0;
+        font-size: 18px;
+        width: 180px;
+        line-height: 26px;
+    }
+
+    .content .block_6 .tl {
+        font-size: 24px;
+    }
+
+    .content .block_6 .apply_container {
+        padding: 25px 60px 20px;
+        margin: 30px auto 0;
+        width: 430px;
+    }
+
+    .content .block_6 .apply_container .row input {
+        font-size: 14px;
+        height: 34px;
+    }
+
+    .content .block_6 .apply_container .row i {
+        width: 14px;
+        height: 18px;
+    }
+
+    .content .block_6 .apply_container .row i.apply_phone {
+        width: 12px;
+    }
+
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+
+    .content .block_1 > .social_info_intro {
+        /*padding:15px 0;*/
+    }
+
+    .content .block_1 .item .name {
+        font-size: 32px;
+    }
+
+    .content .block_1 .item .fee {
+        font-size: 18px;
+        width: 90px;
+        height: 90px;
+        padding-top: 25px;
+    }
+
+    .content .block_1 .item .txt {
+        font-size: 19px;
+    }
+
+    .content .block_1 .btn_apply {
+        margin: 50px auto 0;
+        font-size: 20px;
+        width: 200px;
+        line-height: 30px;
+    }
+
+    .content .block_6 .tl {
+        font-size: 26px;
+    }
+
+    .content .block_6 .apply_container {
+        padding: 35px 70px 30px;
+        margin: 40px auto 0;
+        width: 460px;
+    }
+
+    .content .block_6 .apply_container .row input {
+        font-size: 14px;
+        height: 38px;
+    }
+
+    .content .block_6 .apply_container .row i {
+        width: 14px;
+        height: 18px;
+    }
+
+    .content .block_6 .apply_container .row i.apply_phone {
+        width: 12px;
+    }
+
+}
+
+/*::-ms-clear, ::-ms-reveal {*/
+    /*display: none;*/
+/*}*/

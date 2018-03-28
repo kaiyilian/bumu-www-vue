@@ -1,0 +1,392 @@
+
+.content .block {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.content .company_info_container {
+    height: 250px;
+    background-image: url("../../image/about_us/about_us_bg.png");
+    background-size: 100% 100%;
+    padding: 0 28%;
+}
+
+.content .company_info_container .cpm_info {
+    position: relative;
+    width: 100%;
+    padding: 0 150px;
+    margin-top: 50px;
+}
+
+.content .company_info_container .cpm_name {
+    position: relative;
+    width: 100%;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.content .company_info_container .cpm_intro {
+    position: relative;
+    width: 100%;
+    line-height: 25px;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.content .block .title_container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    float: left;
+}
+
+.content .block .title_container .title {
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 60px;
+}
+
+.content .title_container .sec_title {
+    position: relative;
+    width: 100%;
+    font-size: 12px;
+    line-height: 30px;
+    float: left;
+    text-align: center;
+    color: #333333;
+}
+
+.content .block_1 {
+    position: relative;
+    background-color: #fff;
+    padding: 40px 10%;
+}
+
+.content .block_1 .cpm_advantage {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.content .block_1 .cpm_advantage .advantage_item {
+    position: relative;
+    width: 23%;
+    margin-right: 2%;
+    float: left;
+}
+
+.content .block_1 .cpm_advantage .advantage_item .advantage_img {
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+
+.content .block_1 .cpm_advantage .advantage_item .advantage_info {
+    position: relative;
+    width: 100%;
+    background-color: #5a5a5a;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 20px;
+    float: left;
+}
+
+.content .block_1 .cpm_advantage .advantage_item .advantage_info span {
+    position: relative;
+    width: 100%;
+    line-height: 35px;
+}
+
+.content .block_1 .cpm_advantage .advantage_item .advantage_info .count {
+    font-size: 38px;
+    line-height: 40px;
+    text-indent: -5px;
+}
+
+.content .block_1 .cpm_culture {
+    position: relative;
+    width: 910px;
+    float: left;
+}
+
+.content .block_1 .cpm_culture .cpm_culture_item {
+    position: relative;
+    width: 430px;
+    height: 200px;
+    margin-bottom: 20px;
+    float: left;
+    padding: 30px 40px;
+    background-size: 100% 100%;
+}
+
+.content .block_1 .cpm_culture .cpm_culture_item .title {
+    position: relative;
+    width: 100%;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.content .block_1 .cpm_culture .cpm_culture_item .txt {
+    position: relative;
+    width: 100%;
+    line-height: 25px;
+    font-size: 12px;
+    text-indent: 5px;
+}
+
+.content .block_1 .cpm_culture .cpm_culture_item:nth-child(4n+1) {
+    background-image: url("../../image/about_us/about_us_culture_1.png");
+}
+
+.content .block_1 .cpm_culture .cpm_culture_item:nth-child(4n+2) {
+    background-image: url("../../image/about_us/about_us_culture_2.png");
+    text-align: right;
+    margin-left: 50px;
+}
+
+.content .block_1 .cpm_culture .cpm_culture_item:nth-child(4n+3) {
+    background-image: url("../../image/about_us/about_us_culture_3.png");
+}
+
+.content .block_1 .cpm_culture .cpm_culture_item:nth-child(4n+4) {
+    background-image: url("../../image/about_us/about_us_culture_4.png");
+    text-align: right;
+    margin-left: 50px;
+
+}
+
+.content .block_1 .cpm_culture .cpm_culture_hope {
+    position: absolute;
+    left: 335px;
+    top: 90px;
+    width: 240px;
+    height: 240px;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgb(240, 130, 0);
+}
+
+.content .block_1 .cpm_culture .cpm_culture_hope .title {
+    position: relative;
+    width: 100%;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.content .block_1 .cpm_culture .cpm_culture_hope .txt {
+    position: relative;
+    width: 100%;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.content .our_team_container {
+    position: relative;
+    width: 100%;
+    float: left;
+    background-color: #f5f5f5;
+}
+
+.content .our_team_container .team_list {
+    position: relative;
+    width: 100%;
+    float: left;
+    padding: 0 0 40px;
+}
+
+.content .our_team_container .team_list .team_item {
+    position: relative;
+    width: 220px;
+    margin-right: 30px;
+    float: left;
+    border: 1px solid rgba(88, 88, 88, 0.12);
+
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+}
+
+.content .our_team_container .team_list .team_item .team_leader_img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+}
+
+.content .our_team_container .team_list .team_item .team_leader_img img {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 40px 50px;
+}
+
+.content .our_team_container .team_list .team_item .team_leader_info {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+}
+
+.content .our_team_container .team_list .team_item .team_leader_info .team_leader_name {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(240, 130, 0);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content .our_team_container .team_list .team_item .team_leader_info .team_leader_post {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.content .our_team_container .team_list .team_item .team_leader_info .icon {
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+
+.content .our_team_container .team_list .team_item .team_leader_info .icon:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 14px;
+    background-color: rgba(88, 88, 88, 0.12);
+}
+
+.content .our_team_container .team_list .team_item .team_leader_info .icon .icon_1 {
+    position: absolute;
+    top: 5px;
+    left: 45%;
+    width: 20px;
+    height: 20px;
+    /*background-color: red;*/
+    background-color: #f5f5f5;
+}
+
+.content .our_team_container .team_list .team_item .team_leader_info .icon .icon_1:before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 5px;
+    left: 6px;
+    background-color: rgba(0, 0, 0, 0.12);
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.content .our_team_container .team_list .team_item .team_leader_info .team_leader_intro {
+    position: relative;
+    width: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #585858;
+}
+
+.content .our_team_container .team_list .team_item:hover {
+    transform: translate(0, -20px);
+}
+
+.content .our_team_container .team_list .team_item:hover .team_leader_info {
+    background-color: rgb(240, 130, 0);
+}
+
+.content .our_team_container .team_list .team_item:hover .team_leader_info .team_leader_name,
+.content .our_team_container .team_list .team_item:hover .team_leader_info .team_leader_post,
+.content .our_team_container .team_list .team_item:hover .team_leader_info .team_leader_intro {
+    color: #fff;
+}
+
+.content .our_team_container .team_list .team_item:hover .team_leader_info .icon:before {
+    background-color: #fff;
+}
+
+.content .our_team_container .team_list .team_item:hover .team_leader_info .icon .icon_1 {
+    background-color: rgb(240, 130, 0);
+}
+
+.content .our_team_container .team_list .team_item:hover .team_leader_info .icon .icon_1:before {
+    background-color: #fff;
+}
+
+.content .contact_us_container {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.content .contact_us_container .contact_us_method_container {
+    position: relative;
+    width: 100%;
+    padding: 20px 10% 30px;
+    float: left;
+}
+
+.content .contact_us_container .contact_us_method_container .method_item {
+    position: relative;
+    width: 33%;
+    height: 100px;
+    text-align: center;
+    float: left;
+}
+
+.content .contact_us_container .contact_us_method_container .method_item .method_img {
+    position: relative;
+    margin: auto;
+}
+
+.content .contact_us_container .contact_us_method_container .method_item .name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.content .contact_us_container .contact_us_method_container .method_item:nth-child(3n+1) .method_img {
+    width: 40px;
+    height: 31px;
+    top: 14px;
+}
+
+.content .contact_us_container .contact_us_method_container .method_item:nth-child(3n+2) .method_img {
+    width: 40px;
+    height: 40px;
+    top: 9px;
+}
+
+.content .contact_us_container .contact_us_method_container .method_item:nth-child(3n+3) .method_img {
+    width: 40px;
+    height: 33px;
+    top: 13px;
+}

@@ -1,0 +1,257 @@
+
+.content .block .title_container .title {
+    font-size: 32px;
+}
+
+.content .block {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.content .block_1 .img_list {
+    position: relative;
+    width: 100%;
+    float: left;
+    padding: 10px 0 40px;
+}
+
+.content .block_1 .img_list .img_item {
+    position: relative;
+    float: left;
+}
+
+.content .block_1 .img_list .img_item .question_info {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.20);
+}
+
+.content .block_1 .img_list .img_item .question_info .question_img {
+}
+
+.content .block_1 .img_list .img_item .question_info .question_img img {
+    display: block;
+    margin: 10px auto;
+    width: 70%;
+}
+
+.content .block_1 .img_list .img_item .question_info .txt {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+}
+
+.content .block_2 .solution_list {
+    position: relative;
+    width: 100%;
+    float: left;
+    padding: 10px 0 40px;
+}
+
+.content .block_2 .solution_list .solution_item {
+    position: relative;
+    /*width: 30%;*/
+    /*float: left;*/
+}
+
+.content .block_2 .solution_list .solution_item:not(:last-child) {
+    /*margin-right: 5%;*/
+}
+
+.content .block_2 .solution_list .solution_item img {
+    position: relative;
+    width: 100%;
+}
+
+.content .block_2 .solution_list .solution_item .solution_info {
+    position: relative;
+    width: 100%;
+    min-height: 135px;
+    padding: 10px 20%;
+    background-color: #fff;
+}
+
+.content .block_2 .solution_list .solution_item .solution_info .solution_title {
+    position: relative;
+    width: 100%;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+.content .block_2 .solution_list .solution_item .solution_info .solution_content {
+    position: relative;
+    width: 100%;
+    line-height: 25px;
+    color: rgb(179, 179, 165);
+    font-size: 12px;
+}
+
+.content .block_2 .solution_list .solution_item .solution_info .solution_content span {
+    /*display: inline;*/
+    float: none;
+    width: 100%;
+}
+
+.content .block_3 .img_advantage_list {
+    position: relative;
+    width: 100%;
+    padding: 10px 15px 40px;
+    float: left;
+}
+
+.content .block_3 .img_advantage_list .img_advantage_item {
+    position: relative;
+    width: 18%;
+    float: left;
+    border-radius: 8px;
+}
+
+.content .block_3 .img_advantage_list .img_advantage_item:not(:last-child) {
+    margin-right: 2.5%;
+}
+
+.content .block_3 .img_advantage_list .img_advantage_item .advantage_img {
+}
+
+.content .block_3 .img_advantage_list .img_advantage_item .advantage_img img {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+}
+
+.content .block_3 .img_advantage_list .img_advantage_item .txt {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #FFF;
+    line-height: 70px;
+}
+
+.content .block_4 .step_list {
+    position: relative;
+    width: auto;
+    padding-top: 40px;
+    float: left;
+}
+
+.content .block_4 .step_list .step_item {
+    position: relative;
+    /*width: 230px;*/
+    /*margin-right: 20px;*/
+    float: left;
+}
+
+.content .block_4 .step_list .step_item .step_head {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    color: #fff;
+
+}
+
+.content .block_4 .step_list .step_item .step_head .step_no {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    text-align: center;
+    background-color: #0d72c0;
+    z-index: 1;
+}
+
+.content .block_4 .step_list .step_item .step_head .step_name {
+    position: relative;
+    /*width: 190px;*/
+    padding-left: 50px;
+    width: 100%;
+    background-color: #37a7fd;
+}
+
+.content .block_4 .step_list .step_item .step_content {
+    position: relative;
+    width: 100%;
+    padding: 20px 0 20px 40px;
+    background-color: #f9f9f9;
+    float: left;
+}
+
+.content .block_4 .step_list .step_item .step_content .step_info {
+    position: relative;
+    width: 100%;
+    line-height: 30px;
+}
+
+.content .block_4 .step_list .step_item .step_content .step_info:before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 12px;
+    left: -22px;
+    border-radius: 50%;
+    background-color: #a1a1a1;
+}
+
+.content .block_4 .step_list .step_2:before {
+    content: url("../../image/salary/icon_1.png");
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: -95px;
+    top: -85px;
+}
+
+.content .block_4 .step_list .step_3:before,
+.content .block_4 .step_list .step_4:before {
+    content: url("../../image/salary/icon_2.png");
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: -45px;
+    top: -55px;
+}
+
+.content .block_5 .img_list {
+    position: relative;
+    width: 100%;
+    padding: 10px 0 40px;
+    float: left;
+}
+
+.content .block_5 .img_list .img_item {
+    position: relative;
+    /*width: 30%;*/
+    float: left;
+    margin-bottom: 12px;
+}
+
+.content .block_5 .img_list .img_item:not(:last-child) {
+    /*margin-right: 5%;*/
+}
+
+.bg_1 {
+    background-color: #82dacd;
+}
+
+.bg_2 {
+    background-color: #ff9a9a;
+}
+
+.bg_3 {
+    background-color: #a9d593;
+}
+
+.bg_4 {
+    background-color: #c189cd;
+}
+
+.bg_5 {
+    background-color: #48cafe;
+}

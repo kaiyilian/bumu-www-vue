@@ -1,0 +1,142 @@
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /*height: 75px;*/
+  line-height: 50px;
+  text-align: center;
+  z-index: 999;
+  background-color: #fff;
+  overflow: hidden;
+  font-size: 18px;
+  float: left;
+}
+
+header .row {
+  margin: 0;
+  height: 70px;
+  overflow: hidden;
+}
+
+header .line {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+header .line .icon_blog {
+  position: relative;
+  width: 28px;
+  height: 25px;
+  margin: 6px;
+  display: block;
+}
+
+header .line .icon_salary {
+  position: relative;
+  width: 13px;
+  height: 14px;
+  margin: 13px;
+  display: block;
+  float: left;
+}
+
+header .line .txt {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+header .line .txt:before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 13px;
+  left: 2px;
+  background: url("../../image/icon_head_ksaars.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+header .line .btn {
+  position: relative;
+  top: 4px;
+}
+
+header .row .cpy_info {
+  margin: 10px 0;
+  width: 200px;
+  float: left;
+}
+
+header .row .cpy_info .cpy_logo {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+header .row .cpy_info .cpy_name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+header .row .navbar_container {
+  width: 800px;
+  float: left;
+}
+
+header .row .navbar-btn {
+  cursor: pointer; /*width: 90px;*/
+  padding: 0;
+  margin: 8px 0;
+}
+
+header .row .navbar-btn.active {
+  position: relative;
+  /*color: rgb(240, 130, 0);*/
+  /*border-bottom: 2px solid rgb(240, 130, 0);*/
+}
+
+header .row .navbar-btn.active:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 2px;
+  background-color: rgb(240, 130, 0);
+}
+
+header .row .navbar-btn:hover {
+  color: rgb(240, 130, 0);
+}
+
+header .row .cpy_phone {
+  margin: 8px 0;
+}
+
+header .row .cpy_phone span {
+  font-size: 12px;
+  /*margin-left: 5px;*/
+  color: rgb(240, 130, 0);
+  /*display: inline;*/
+  /*float: none;*/
+  width: 160px;
+  padding-left: 20px;
+}
+
+header .row .cpy_phone span:first-child:before {
+  content: url("../../image/icon_head_phone.png");
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 0px;
+  top: 16px;
+  line-height: 0;
+}
